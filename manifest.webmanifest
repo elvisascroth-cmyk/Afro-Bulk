@@ -1,0 +1,26 @@
+{
+  "name": "AFRO BULK — Compléments naturels du Togo",
+  "short_name": "AFRO BULK",
+  "description": "Boutique en ligne de compléments alimentaires naturels fabriqués à Lomé : BULK 228 et AFRO FIT.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

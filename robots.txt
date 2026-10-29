@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /compact.html
+Disallow: /#admin
+
+Sitemap: https://afro-bulk.vercel.app/sitemap.xml

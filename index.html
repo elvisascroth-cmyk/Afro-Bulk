@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="AFRO BULK — compléments alimentaires naturels fabriqués à Lomé, Togo. BULK 228 pour la prise de masse, AFRO FIT pour la minceur. Livraison partout au Togo, paiement Flooz ou Mixx.">
+  <title>AFRO BULK — Compléments naturels fabriqués à Lomé, Togo</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_TG">
+  <meta property="og:site_name" content="AFRO BULK">
+  <meta property="og:title" content="AFRO BULK — Compléments naturels du Togo">
+  <meta property="og:description" content="BULK 228 et AFRO FIT : des compléments artisanaux, sans additifs, fabriqués à Lomé. Livraison partout au Togo.">
+  <meta property="og:image" content="bulk.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Livraison à Lomé et partout au Togo</span>
+      <a href="tel:+22879413779">WhatsApp +228 79 41 37 79</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-content">
+      <a href="#boutique" class="brand" data-nav aria-label="AFRO BULK, accueil">
+        <span class="brand-mark">AB</span>
+        <span class="brand-name">AFRO BULK</span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="#boutique" data-nav>Boutique</a>
+        <a href="#pourquoi">Pourquoi nous</a>
+        <a href="#faq">FAQ</a>
+        <a href="#compte" data-nav>Mon compte</a>
+      </nav>
+      <button class="cart-btn" id="openCart" type="button" aria-label="Ouvrir le panier">
+        Panier <span class="cart-badge" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ================= BOUTIQUE ================= -->
+    <section id="view-boutique" class="view">
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Fabriqué à Lomé — Togo</p>
+          <h1>La force et la forme,<br><span class="accent">au naturel.</span></h1>
+          <p class="lead">Compléments alimentaires artisanaux pour le sport, la musculation et le bien-être. Des ingrédients locaux, sans additifs chimiques ni sucre ajouté.</p>
+          <div class="hero-cta">
+            <button class="btn btn-primary" type="button" data-scroll="catalogue">Voir le catalogue</button>
+            <a class="btn btn-outline" href="https://wa.me/22879413779?text=Bonjour%20Afro%20Bulk%2C%20je%20souhaite%20des%20informations" target="_blank" rel="noopener noreferrer">Nous contacter</a>
+          </div>
+          <ul class="trust-row">
+            <li>100 % naturel</li>
+            <li>Livraison 24–48 h</li>
+            <li>Flooz &amp; Mixx</li>
+          </ul>
+        </div>
+        <figure class="hero-media hero-visual">
+          <div class="orbit-stage">
+            <div class="orbit-glow" aria-hidden="true"></div>
+            <div class="orbit-ring ring-1" aria-hidden="true"></div>
+            <div class="orbit-ring ring-2" aria-hidden="true"></div>
+            <div class="orbit-ring ring-3" aria-hidden="true"></div>
+            <div class="orbit-pulse" aria-hidden="true"></div>
+            <div class="orbit-core">
+              <svg viewBox="0 0 64 64" role="img" aria-label="Haltère, symbole de musculation">
+                <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M23 24v16M18 26v12M41 24v16M46 26v12M23 32h18"/>
+                </g>
+              </svg>
+              <span class="core-label">BULK 228</span>
+              <span class="core-sub">Prise de masse</span>
+            </div>
+            <span class="orbit-tag tag-top">100 % naturel</span>
+            <span class="orbit-tag tag-bottom">Lomé, Togo</span>
+          </div>
+        </figure>
+      </section>
+
+      <section class="strip" aria-label="Points clés">
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c0-6 3-10 9-11-1 7-4 10-9 11Z"/><path d="M12 21C9 17 6 15 3 15c0 4 3 7 9 6Z"/></svg>
+          <div><h3>Ingrédients naturels</h3><p>Soja, avoine, dattes, gingembre, citron et moringa.</p></div>
+        </div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <div><h3>Fabriqué au Togo</h3><p>Production locale à Lomé, en circuit court.</p></div>
+        </div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>
+          <div><h3>Livraison rapide</h3><p>Lomé intra-muros et villes de l'intérieur.</p></div>
+        </div>
+      </section>
+
+      <section id="catalogue" class="catalogue">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Catalogue</p>
+            <h2>Nos produits</h2>
+          </div>
+          <p class="section-note">Formules naturelles pour la prise de masse, la minceur et le bien-être.</p>
+        </div>
+        <div class="products-grid" id="productGrid"></div>
+      </section>
+
+      <section id="pourquoi" class="why">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">La différence Afro Bulk</p>
+            <h2>Pourquoi notre gamme</h2>
+          </div>
+          <p class="section-note">Moins d'additifs, plus de nutriments, un prix juste et une production locale.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-item">
+            <span class="why-num">01</span>
+            <h3>Zéro chimie</h3>
+            <p>Pas d'édulcorant artificiel, d'arôme de synthèse ni de conservateur.</p>
+          </article>
+          <article class="why-item">
+            <span class="why-num">02</span>
+            <h3>Riche en nutriments</h3>
+            <p>Protéines complètes, acides aminés naturels et fibres digestives.</p>
+          </article>
+          <article class="why-item">
+            <span class="why-num">03</span>
+            <h3>Prix accessible</h3>
+            <p>Une qualité supérieure, bien en dessous des protéines importées.</p>
+          </article>
+          <article class="why-item">
+            <span class="why-num">04</span>
+            <h3>Circuit court</h3>
+            <p>Produit à Lomé, livré directement chez vous partout au Togo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Questions fréquentes</p>
+            <h2>Tout savoir avant de commander</h2>
+          </div>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Comment se passe la livraison ?</summary>
+            <p>Nous livrons à Lomé sous 24 à 48 h (500 F CFA) et dans le reste du Togo (1 500 F CFA). La livraison est offerte à partir de 15 000 F CFA d'achat.</p>
+          </details>
+          <details>
+            <summary>Quels moyens de paiement acceptez-vous ?</summary>
+            <p>Moov Money Flooz (+228 79 41 37 79), Mixx by Yas (+228 70 57 83 26) et les espèces à la livraison à Lomé. Vous joignez une référence de transaction ou une capture d'écran au moment de la commande.</p>
+          </details>
+          <details>
+            <summary>Comment suivre ma commande ?</summary>
+            <p>Créez un compte avec votre numéro de téléphone : l'historique et le statut de livraison (en attente, confirmée, expédiée, livrée) restent privés et accessibles dans « Mon compte ».</p>
+          </details>
+          <details>
+            <summary>Les produits conviennent-ils à tout le monde ?</summary>
+            <p>Nos mélanges sont des compléments alimentaires, pas des médicaments. En cas de grossesse, d'allaitement, de traitement médical ou d'allergie alimentaire, demandez l'avis d'un professionnel de santé.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="payment-strip">
+        <div>
+          <p class="eyebrow">Paiement</p>
+          <h3>Simple, local, sans carte bancaire</h3>
+        </div>
+        <ul class="payment-list">
+          <li><span>Moov Money Flooz</span><strong>+228 79 41 37 79</strong></li>
+          <li><span>Mixx by Yas</span><strong>+228 70 57 83 26</strong></li>
+          <li><span>Espèces à la livraison</span><strong>Lomé</strong></li>
+        </ul>
+      </section>
+
+      <section class="contact-band">
+        <div>
+          <h3>Une question avant de commander ?</h3>
+          <p>Écrivez-nous sur WhatsApp, nous répondons tous les jours.</p>
+        </div>
+        <a class="btn btn-outline" href="https://wa.me/22879413779?text=Bonjour%20Afro%20Bulk%2C%20j%27ai%20une%20question" target="_blank" rel="noopener noreferrer">Discuter sur WhatsApp</a>
+      </section>
+    </section>
+
+    <!-- ================= COMPTE ================= -->
+    <section id="view-compte" class="view hidden">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Espace client</p>
+          <h2>Mon compte</h2>
+        </div>
+        <p class="section-note">Vos commandes et votre livraison, visibles par vous uniquement.</p>
+      </div>
+      <div class="account-grid">
+        <div class="panel" id="authPanel">
+          <div class="tabs" role="tablist">
+            <button class="tab active" id="tabLogin" type="button" data-auth-tab="login" role="tab">Connexion</button>
+            <button class="tab" id="tabRegister" type="button" data-auth-tab="register" role="tab">Créer un compte</button>
+          </div>
+          <form id="loginForm" class="auth-form" autocomplete="on">
+            <label>Téléphone<input id="loginPhone" type="tel" required inputmode="tel" autocomplete="tel" placeholder="90 00 00 00" maxlength="20"></label>
+            <label>Mot de passe<input id="loginPass" type="password" required minlength="8" autocomplete="current-password" placeholder="8 caractères minimum"></label>
+            <button class="btn btn-primary btn-block" type="submit">Se connecter</button>
+          </form>
+          <form id="registerForm" class="auth-form hidden" autocomplete="on">
+            <label>Nom complet<input id="regName" type="text" required maxlength="60" autocomplete="name" placeholder="Ex : Kossi Adjei"></label>
+            <label>Téléphone<input id="regPhone" type="tel" required inputmode="tel" autocomplete="tel" placeholder="90 00 00 00" maxlength="20"></label>
+            <label>Mot de passe (8 caractères minimum)<input id="regPass" type="password" required minlength="8" autocomplete="new-password" placeholder="8 caractères minimum"></label>
+            <label>Confirmer le mot de passe<input id="regPass2" type="password" required minlength="8" autocomplete="new-password" placeholder="8 caractères minimum"></label>
+            <button class="btn btn-primary btn-block" type="submit">Créer mon compte</button>
+          </form>
+        </div>
+
+        <div class="panel hidden" id="profilePanel">
+          <div class="profile-head">
+            <span class="avatar" id="profileAvatar">A</span>
+            <div>
+              <h3 id="profileName"></h3>
+              <p class="small muted" id="profilePhone"></p>
+            </div>
+            <button class="btn btn-outline btn-sm" id="logoutBtn" type="button">Déconnexion</button>
+          </div>
+          <h4 class="panel-title">Mes commandes</h4>
+          <div class="stack" id="ordersList"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ADMIN ================= -->
+    <section id="view-admin" class="view hidden">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Gestion</p>
+          <h2>Espace admin</h2>
+        </div>
+        <p class="section-note">Commandes, stock, photos produits et activité des ventes.</p>
+      </div>
+
+      <div id="adminAuth" class="panel narrow">
+        <form id="adminLoginForm" class="auth-form" autocomplete="off">
+          <label>Mot de passe admin<input id="adminPass" type="password" required minlength="8" autocomplete="current-password" placeholder="8 caractères minimum"></label>
+          <label id="adminConfirmWrap" class="hidden">Confirmer le mot de passe<input id="adminPass2" type="password" minlength="8" autocomplete="new-password" placeholder="8 caractères minimum"></label>
+          <button class="btn btn-primary btn-block" type="submit" id="adminSubmit">Entrer</button>
+          <p class="hint" id="adminHint"></p>
+        </form>
+      </div>
+
+      <div id="adminDash" class="hidden">
+        <div class="stats-grid">
+          <div class="stat"><span class="stat-label">Commandes</span><strong id="statOrders">0</strong></div>
+          <div class="stat"><span class="stat-label">Chiffre d'affaires</span><strong id="statRevenue">0 FCFA</strong></div>
+          <div class="stat"><span class="stat-label">En attente</span><strong id="statPending">0</strong></div>
+          <div class="stat"><span class="stat-label">Stock total</span><strong id="statStock">0</strong></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="panel-head">
+            <h3>Ventes des 7 derniers jours</h3>
+            <span class="small muted">Hors commandes annulées</span>
+          </div>
+          <div class="chart" id="salesChart"></div>
+        </div>
+
+        <div class="admin-columns">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Commandes</h3>
+              <select id="orderFilter" class="filter-select" aria-label="Filtrer les commandes par statut">
+                <option value="all">Toutes</option>
+                <option value="en_attente">En attente</option>
+                <option value="confirmee">Confirmées</option>
+                <option value="expediee">Expédiées</option>
+                <option value="livree">Livrées</option>
+                <option value="annulee">Annulées</option>
+              </select>
+            </div>
+            <div class="stack" id="adminOrders"></div>
+          </div>
+          <div class="panel">
+            <div class="panel-head"><h3>Produits &amp; photos</h3></div>
+            <div class="stack" id="adminProducts"></div>
+          </div>
+        </div>
+
+        <div class="panel" id="adminSettings">
+          <div class="panel-head"><h3>Frais de livraison</h3></div>
+          <div class="admin-row">
+            <label>Lomé (FCFA)<input id="feeLome" type="number" min="0" max="100000" step="100"></label>
+            <label>Intérieur du Togo (FCFA)<input id="feeInterior" type="number" min="0" max="100000" step="100"></label>
+            <label>Livraison offerte dès (FCFA)<input id="feeFree" type="number" min="0" max="1000000" step="500"></label>
+          </div>
+          <div class="admin-actions">
+            <button class="btn btn-primary btn-sm" id="saveSettings" type="button">Enregistrer les frais</button>
+          </div>
+        </div>
+
+        <div class="panel" id="adminBackup">
+          <div class="panel-head"><h3>Sauvegarde &amp; export</h3></div>
+          <p class="hint">Comptes, commandes, produits et photos sont stockés dans ce navigateur. Exportez régulièrement pour ne rien perdre, ou importez une sauvegarde sur un autre appareil.</p>
+          <div class="admin-actions">
+            <button class="btn btn-outline btn-sm" id="exportDB" type="button">Exporter les données (.json)</button>
+            <button class="btn btn-outline btn-sm" id="exportCsv" type="button">Commandes en CSV</button>
+            <label class="btn btn-outline btn-sm">Importer un fichier<input id="importDB" type="file" accept="application/json,.json" class="hidden"></label>
+          </div>
+          <textarea id="backupText" class="backup-text hidden" readonly rows="5" aria-label="Sauvegarde JSON"></textarea>
+        </div>
+
+        <button class="btn btn-outline" id="adminLogout" type="button">Quitter l'espace admin</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= PANIER ================= -->
+  <div class="backdrop" id="cartBackdrop"></div>
+  <aside class="drawer" id="cartDrawer" aria-hidden="true" aria-label="Panier">
+    <div class="drawer-head">
+      <h3>Votre panier</h3>
+      <button class="icon-btn" id="closeCart" type="button" aria-label="Fermer le panier">&times;</button>
+    </div>
+    <div class="drawer-body">
+      <div class="stack" id="cartItems"></div>
+      <div id="cartSummary"></div>
+
+      <div id="checkoutLogin" class="panel-soft hidden">
+        <p class="small muted">Connectez-vous pour finaliser votre commande et suivre votre livraison.</p>
+        <a class="btn btn-primary btn-block" href="#compte">Se connecter ou créer un compte</a>
+      </div>
+
+      <div id="orderSuccess" class="panel-soft hidden">
+        <h4>Commande enregistrée</h4>
+        <p class="small muted">Dernière étape : envoyez le récapitulatif sur WhatsApp pour que nous préparions votre commande.</p>
+        <a class="btn btn-primary btn-block" id="orderSuccessWa" href="https://wa.me/22879413779" target="_blank" rel="noopener noreferrer">Envoyer sur WhatsApp</a>
+        <a class="btn btn-outline btn-block" href="#compte" id="orderSuccessOrders">Voir mes commandes</a>
+      </div>
+
+      <form id="checkoutForm" class="checkout hidden" autocomplete="off">
+        <h4>Livraison</h4>
+        <label>Nom complet<input id="coName" type="text" required maxlength="60" autocomplete="name"></label>
+        <label>Téléphone WhatsApp<input id="coPhone" type="tel" required maxlength="20" autocomplete="tel"></label>
+        <label>Ville / quartier<input id="coAddress" type="text" required maxlength="120" autocomplete="street-address" placeholder="Ex : Lomé - Adidogomé"></label>
+        <label>Zone de livraison
+          <select id="coZone">
+            <option value="lome">Lomé (500 F CFA)</option>
+            <option value="interior">Intérieur du Togo (1 500 F CFA)</option>
+          </select>
+        </label>
+        <fieldset class="pay-methods">
+          <legend>Paiement mobile manuel</legend>
+          <label class="radio"><input type="radio" name="pay" value="flooz" checked> Flooz (Moov) — +228 79 41 37 79</label>
+          <label class="radio"><input type="radio" name="pay" value="mixx"> Mixx by Yas — +228 70 57 83 26</label>
+        </fieldset>
+        <label>Référence de paiement<input id="coRef" type="text" maxlength="40" placeholder="Ex : identifiant de transaction"></label>
+        <label>Ou preuve de paiement (capture d'écran)<input id="coProof" type="file" accept="image/*"></label>
+        <p class="hint" id="deliveryHint">Une référence ou une capture suffit. Livraison offerte dès 15 000 F CFA.</p>
+        <button class="btn btn-primary btn-block" type="submit">Valider ma commande</button>
+      </form>
+    </div>
+  </aside>
+
+  <!-- ================= PREUVE DE PAIEMENT ================= -->
+  <div class="overlay hidden" id="proofOverlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Preuve de paiement">
+      <div class="modal-head">
+        <h3>Preuve de paiement</h3>
+        <button class="icon-btn" id="closeProof" type="button" aria-label="Fermer">&times;</button>
+      </div>
+      <img id="proofImage" alt="Preuve de paiement">
+    </div>
+  </div>
+
+  <!-- ================= MENTIONS & CGV ================= -->
+  <div class="overlay hidden" id="legalOverlay">
+    <div class="modal legal" role="dialog" aria-modal="true" aria-label="Mentions légales et conditions de vente">
+      <div class="modal-head">
+        <h3>Mentions légales, livraison et CGV</h3>
+        <button class="icon-btn" id="closeLegal" type="button" aria-label="Fermer">&times;</button>
+      </div>
+      <div class="legal-body">
+        <h4>Éditeur</h4>
+        <p>AFRO BULK — compléments alimentaires artisanaux. Lomé, Togo. Contact : +228 79 41 37 79.</p>
+        <h4>Produits</h4>
+        <p>Nos produits sont des compléments alimentaires et ne remplacent ni une alimentation équilibrée ni un traitement médical. En cas de grossesse, d'allaitement, d'allergie ou de traitement, consultez un professionnel de santé.</p>
+        <h4>Prix et paiement</h4>
+        <p>Les prix sont indiqués en francs CFA, toutes taxes comprises. Le paiement se fait par Moov Money Flooz, Mixx by Yas ou en espèces à la livraison à Lomé. Une référence de transaction ou une preuve de paiement est demandée à la commande.</p>
+        <h4>Livraison</h4>
+        <p>Lomé : 500 F CFA, sous 24 à 48 h. Intérieur du Togo : 1 500 F CFA. Livraison offerte à partir de 15 000 F CFA d'achat. Les délais peuvent varier selon la localité.</p>
+        <h4>Commandes et annulation</h4>
+        <p>Une commande peut être annulée depuis « Mon compte » tant qu'elle est en attente. Une fois confirmée, contactez-nous sur WhatsApp.</p>
+        <h4>Données personnelles</h4>
+        <p>Nom, téléphone, adresse et commandes servent uniquement à traiter vos achats. Les mots de passe sont stockés hachés et ne sont jamais lisibles. Vous pouvez demander la suppression de vos données en nous écrivant.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#boutique" class="brand" data-nav>
+          <span class="brand-mark">AB</span>
+          <span class="brand-name">AFRO BULK</span>
+        </a>
+        <p class="small muted footer-tagline">Compléments alimentaires naturels, fabriqués à Lomé, Togo.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-list">
+          <li><a href="tel:+22879413779">WhatsApp / Flooz · +228 79 41 37 79</a></li>
+          <li><a href="tel:+22870578326">Mixx by Yas · +228 70 57 83 26</a></li>
+          <li><a href="https://tiktok.com/@sbrouf8" target="_blank" rel="noopener noreferrer">TikTok · @sbrouf8</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Informations</h4>
+        <ul class="footer-list">
+          <li><a href="#faq">Questions fréquentes</a></li>
+          <li><button class="link-btn" id="openLegal" type="button">Mentions légales &amp; CGV</button></li>
+          <li><a href="#admin" data-nav>Espace admin</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 AFRO BULK — Lomé, Togo</span>
+      <span>Paiement Flooz, Mixx by Yas et espèces à la livraison</span>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
